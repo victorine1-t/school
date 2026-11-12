@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    background-color: blue;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo{
+    font-size: medium;
+    font-weight: bold;
+    margin-right: auto;
+    color: antiquewhite;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    color: gold;
+    background-color: #555;
+}
+.login{
+    margin-left: auto;
+}
+main{
+    padding: 30px 20px;
+}
+footer{
+    background:#222;
+    color: orange;
+    text-align: center;
+    padding: 15px;
+}
